@@ -26,3 +26,8 @@ print(d)
 a,b,c,d,*e,f,g=range(20)
 print(e)
 
+#tupple dan for
+tx=('ukon','adol','alan')
+for keren in tx:
+    print(keren) #keren adalah variable baru yg dibuat for
+
