@@ -65,4 +65,6 @@ for x in orang:
     print(orang.keys()) #mencetak dict keys pada list orang saja
     print(orang.values()) #mencetak dict values pada list orang saja
 
-
+#membuat dict dengan range()
+print({'tx='+str(a) : a**2 for a in range(5)})
+#menghasilkan dict dari kuadrat 5 bilangan pertama

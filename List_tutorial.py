@@ -67,3 +67,12 @@ print(even)
 num=[i for i in range(10) if i % 3==0]
 print(num)
 #membuat list kelipatan 3 dari range 10
+
+#ARRANGE LIST
+a=[6,3,2,5,4,1]
+a.sort() #mengurutkan list
+print(a)
+
+a=range(11)
+print(a[::2]) #menyusun list bil.genap
+print(a[::-1]) #menyusun list secara terbalik/reverse
