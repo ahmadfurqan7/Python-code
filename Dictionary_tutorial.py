@@ -59,6 +59,10 @@ orang={'nama':'ukon','tahun lahir':2000,'warga negara':'indonesia'}
 for x in orang:
     print("{}:{}".format(x,orang[x])) #x adalah value key di list orang
 
-
+#fungsi keys() dan values()
+orang={'nama':'ukon',"umur":23,'warga negara':'indonesia'}
+for x in orang:
+    print(orang.keys()) #mencetak dict keys pada list orang saja
+    print(orang.values()) #mencetak dict values pada list orang saja
 
 
