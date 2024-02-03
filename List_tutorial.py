@@ -26,7 +26,7 @@ print(cart2)
 #CHANGE LIST VALUE
 cart=["milk","tea","coffee"]
 cart[2]="water"
-print(cart[2])
+print(cart)
 
 #INDEX FROM VARIABLE
 name="ukon"
