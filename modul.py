@@ -12,7 +12,7 @@ print(ketawa(9))
 print(iseng("ukon",5))
 
 #sintaknya juga bisa dibuat seperti ini
-import Return_Function_tutorial
-print(Return_Function_tutorial.ketawa(3))
-print(Return_Function_tutorial.iseng("alan",22))
+import Return_Function_tutorial as rf
+print(rf.ketawa(3))
+print(rf.iseng("alan",22))
 #jadi nama fungsinya dibuat pada print
