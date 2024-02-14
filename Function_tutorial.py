@@ -87,7 +87,8 @@ if len(makanan)==2:
     print("itu adalah {}".format(makanan[1]))
 
 #INPUT FUNCTION
-name=input("what is your name?")
+print("what is your name?")
+name=input("jawaban: ")
 age=input("what is your age?")
 print("hi "+name+". oke, jadi umur anda "+age+" tahun")
 #fungsi ini setelah dinputkan nama akan merespon "hi" + nama anda dan umur anda
